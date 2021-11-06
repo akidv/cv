@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <div class="buttonsId">
+        <button onclick="changeTheme()">Theme</button>
+        <button onclick="changeFont()">Font</button>  
+    </div>
+
+    <header>
+        <h1 id="hoofdtekstId">Arend Kijk in de Vegte</h1>
+    </header>
+
+    <div class="persoonsgegevens">
+        <h3>Persoonsgegevens</h3>
+        <p> <b>Naam:</b> Arend Kijk in de Vegte<br>
+            <b>Geboortedatum:</b> 1 Januari 1970<br>
+            <b>Email:</b> <a href="mailto:_x_@gmail.com" id="mailtoId">_x_@gmail.com</a><br>
+            <b>Mob.:</b> <a href="callto:nummer" id="calltoId">nummer</a><br>
+            <img src="Hoofd1.PNG" id="afbeeldingHoofd">
+        </p>
+    </div>
+
+    <div class="werkervaring">
+        <h3>Ervaring</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Functie</th>
+                    <th>Werkgever</th>
+                    <th>Duur</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Orderpicker</td>
+                    <td>Van Dijk Educatie</td>
+                    <td>4 weken</td>
+                </tr>
+                <tr>
+                    <td>Hulp houtbewerking</td>
+                    <td>TIFA Lemele</td>
+                    <td>6 maanden</td>
+                </tr>
+                <tr>
+                    <td>Magazijnmedewerker</td>
+                    <td>Wehkamp</td>
+                    <td>1+ jaar</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="persoonlijkheid">
+        <h3>Certificaten, cursussen en hobby's</h3>
+        <h6 style="margin-block-start: 1em;">Certificaten</h6>
+        <ul class="certificatenLijst">
+            <li>Havodiploma</li>
+            <li>VOL VCA</li>
+            <li>Rijbewijs B</li>
+            <li>Propedeuse HBO bouwkunde</li>
+        </ul>
+        <h6>Cursussen</h6>
+        <ul class="cursussenLijst">
+            <li>Programmeren in C#</li>
+        </ul>
+        <h6>Hobby's</h6>
+        <ul class="hobbiesLijst">
+            <li>Computeren</li>
+        </ul>
+    </div>
+
+    <div style="clear: both"></div>
+
+    <footer>
+        <p id="opmerking">Deze website is een opdracht van Deltion</p>
+        <p id="linkAuteursrecht"><a href="http://localhost/webAuteursrecht/" target="_blank">Auteursrecht</a></p>
+    </footer>
+
+    <!--    Blokkeert elementranden tov van andere zwevende elementen
+            both: geen zwevende elementen aan linker en rechter zijde. -->
+    
+
+</body>
+
+</html>
